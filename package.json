@@ -4,13 +4,13 @@
   "description": "discovery-service",
   "main": "application.js",
   "dependencies": {
-    "module-alias": "^2.2.3",
     "@grpc/grpc-js": "^1.10.2",
     "@grpc/grpc-js-xds": "^1.10.0",
     "@grpc/proto-loader": "^0.6.0",
     "@grpc/reflection": "^1.0.0",
+    "common-utils": "github:TripConnect/common-utils",
     "dotenv": "^16.4.5",
-    "common-utils": "github:TripConnect/common-utils"
+    "module-alias": "^2.2.3"
   },
   "scripts": {
     "build": "tsc && tsc-alias",
@@ -20,8 +20,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "npm-check": "^6.0.1",
     "@types/node": "^22.13.11",
+    "npm-check": "^6.0.1",
     "ts-node": "^10.9.2",
     "tsc-alias": "^1.8.10",
     "tsconfig-paths": "^4.2.0",

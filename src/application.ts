@@ -1,3 +1,4 @@
+import 'dotenv/config';
 const grpc = require('@grpc/grpc-js');
 import { backendProto, ConfigHelper } from 'common-utils';
 
