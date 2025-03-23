@@ -4,8 +4,6 @@ import { backendProto, ConfigHelper } from 'common-utils';
 
 import * as rpcImplementations from 'rpc';
 
-ConfigHelper.load();
-
 function start() {
     const PORT = ConfigHelper.read("server.port");
 
