@@ -10,6 +10,7 @@
     "@grpc/reflection": "^1.0.0",
     "common-utils": "github:TripConnect/common-utils",
     "dotenv": "^16.4.5",
+    "google-protobuf": "^3.21.4",
     "module-alias": "^2.2.3"
   },
   "scripts": {
